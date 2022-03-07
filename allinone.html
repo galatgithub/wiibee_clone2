@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>WiiBee</title>
+<script type="text/javascript" src="js/dygraph-combined.min.js"></script>
+<script type="text/javascript" src="wiibee.js"></script>
+<style>
+.graphdiv {
+    height: 200px;
+}
+</style>
+</head>
+<body>
+<div id="graphdiv" class="graphdiv"></div>
+<script type="text/javascript">
+wiibee.forEach(function(elt, index, arr) {
+    arr[index][0] = new Date(1000*elt[0]);
+});
+
+g = new Dygraph(document.getElementById('graphdiv'), wiibee, {
+    labels: ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4", "M5", "M6", "M7"],
+    axes: {
+        x: {
+            valueFormatter: function(value) {
+                // slice: "2016-09-22T10:03:55.625Z" -> "09-22T10:03:55"
+                return new Date(value).toISOString().slice(5, 19);
+            },
+        },
+        y: {
+            valueFormatter: function(value) {
+                return (value < 10 && value >= 0 ? '0' : '') + value.toFixed(2);
+            },
+        },
+    },
+});
+</script>
+</body>
+</html>

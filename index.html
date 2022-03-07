@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>WiiBee</title>
+<script type="text/javascript" src="js/dygraph-combined.js"></script>
+<script type="text/javascript" src="js/synchronizer.js"></script>
+<script type="text/javascript" src="wiibee.js"></script>
+<style>
+.graphdiv {
+    height: 200px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+function getColors(num, sat, val) {
+    var colors = [];
+    var half = Math.ceil(num / 2);
+    for (var i = 0; i < num; i++) {
+        // alternate colors for high contrast.
+        var idx = i % 2 ? (half + (i + 1)/ 2) : Math.ceil((i + 1) / 2);
+        var hue = (1.0 * idx / (1 + num));
+        colors.push(Dygraph.hsvToRGB(hue, sat, val));
+    }
+    return colors;
+}
+var labels = ["Date", "T°CPU", "T", "Vert-Jaune", "Bleu", "Noir", "Rouge","Mauve"];
+// must calibrate each balance and setup the offsets accordingly
+var offset = [     0,       0,   0, -2.2,  4.6,  3.0,  3.1, 1.1];
+//  labels = ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4"];
+var multi  = [    [],      [],  [],   [],    [],  [],   [],  []];
+var ndata  = 0;
+var range  = [15, 45];
+wiibee.forEach(function(elt1, index1, arr1) {
+    elt1.forEach(function(elt2, index2, arr2) {
+        multi[index2].push([
+            new Date(1000*elt1[0]),
+            elt2 < 1 ? null : elt2 + offset[index2]
+        ]);
+        ndata = Math.max(index2, ndata);
+        if (index2 > 0) {
+            range[0] = Math.min(elt2 -  5, range[0]);
+            range[1] = Math.max(elt2 + 10, range[1]);
+        }
+    });
+});
+var colors = getColors(ndata, 1.0, 0.5);
+
+function gr(index) {
+    var elt = document.createElement("div");
+    elt.className = "graphdiv";
+    document.body.appendChild(elt);
+    return new Dygraph(elt, multi[index], {
+        labels: ["Date", labels[index]],
+        colors: [colors[index-1]],
+        valueRange: range,
+        <!-- rajout barres de zoom -->
+        showRangeSelector: true,
+         
+        axes: {
+            x: {
+                valueFormatter: function(value) {
+                    // slice: "2016-09-22T10:03:55.625Z" -> "09-22T10:03:55"
+                    return new Date(value).toISOString().slice(5, 19);
+                },
+            },
+            y: {
+                valueFormatter: function(value) {
+                    return (value < 10 && value >= 0 ? '0' : '') + value.toFixed(2);
+                },
+            },
+        },
+        
+    });
+}
+var gs = [];
+for (var i = 1; i < ndata+1; i++) {
+    gs.push(gr(i));
+}
+
+var sync = Dygraph.synchronize(gs, {
+  selection: true,
+  zoom: true,
+});
+</script>
+</body>
+</html>

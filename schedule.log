@@ -1,0 +1,77 @@
+--------------- 2021-11-12 10:36:52 ---------------
+File "schedule.wpi" not found, skip running schedule script.
+---------------------------------------------------
+--------------- 2021-11-12 11:48:56 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 13:00:00
+---------------------------------------------------
+--------------- 2021-11-12 12:00:24 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 13:00:00
+---------------------------------------------------
+--------------- 2021-11-12 13:03:29 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 15:00:00
+---------------------------------------------------
+--------------- 2021-11-12 17:00:03 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 18:00:00
+---------------------------------------------------
+--------------- 2021-11-12 17:08:22 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 19:00:00
+---------------------------------------------------
+--------------- 2021-11-12 17:09:09 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 19:00:00
+---------------------------------------------------
+--------------- 2021-11-12 17:09:25 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 19:00:00
+---------------------------------------------------
+--------------- 2021-11-12 17:20:24 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-12 19:00:00
+---------------------------------------------------
+--------------- 2021-11-13 08:36:41 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 10:00:00
+---------------------------------------------------
+--------------- 2021-11-13 10:00:25 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 11:00:00
+---------------------------------------------------
+--------------- 2021-11-13 12:45:31 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 14:00:00
+---------------------------------------------------
+--------------- 2021-11-13 13:03:52 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 15:00:00
+---------------------------------------------------
+--------------- 2021-11-13 13:10:00 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 15:00:00
+---------------------------------------------------
+--------------- 2021-11-13 13:20:24 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 15:00:00
+---------------------------------------------------
+--------------- 2021-11-13 13:22:31 ---------------
+Schedule script is interrupted, revising the schedule...
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 14:00:00
+---------------------------------------------------
+--------------- 2021-11-13 13:40:23 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 15:00:00
+---------------------------------------------------
+--------------- 2021-11-13 13:45:24 ---------------
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 15:00:00
+---------------------------------------------------
+--------------- 2021-11-13 14:01:03 ---------------
+Schedule script is interrupted, revising the schedule...
+Skip scheduling next shutdown, which should be done externally.
+Schedule next startup at:  2021-11-13 14:00:00
+---------------------------------------------------

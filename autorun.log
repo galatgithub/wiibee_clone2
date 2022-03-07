@@ -1,0 +1,302 @@
+
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (systemd-sysusers.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+[2022-02-02 08:14:21,084][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+/mnt/bee1/wiibee/autorun.sh: line 85: [: missing `]'
+[2022-02-02 11:01:06,415][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 11:01:11,611][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 85: [: missing `]'
+[2022-02-02 11:23:31,849][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 85: [: missing `]'
+/mnt/bee1/wiibee/autorun.sh: line 85: [: missing `]'
+[2022-02-02 12:22:51,946][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-02 12:22:57,412][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-02 12:41:59,014][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+/mnt/bee1/wiibee/autorun.sh: line 133: /dev/rfcomm3: No such device
+[2022-02-02 13:03:14,828][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-02 13:03:20,566][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm2: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-02 13:41:04,001][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 13:41:09,201][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-02 14:01:30,631][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-02 14:23:06,924][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+[2022-02-02 14:41:25,565][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-02 15:01:31,518][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
+[2022-02-02 16:01:03,273][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+/mnt/bee1/wiibee/autorun.sh: line 133: /dev/rfcomm3: No such device
+[2022-02-02 16:24:13,828][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-02 16:41:00,856][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-02 16:41:06,151][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 16:41:11,350][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-02 18:14:45,286][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
+[2022-02-02 18:41:31,076][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-02 18:41:36,278][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-02 19:03:09,823][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-02 19:03:15,202][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-02 19:21:03,949][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-02 19:41:58,414][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 20:01:34,092][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 20:21:30,998][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 07:42:01,649][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 09:41:29,090][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 10:01:27,071][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 10:01:32,270][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-03 12:01:27,761][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 12:01:33,228][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 13:00:59,575][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 13:01:04,796][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 13:01:25,199][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 110] Connection timed out
+[2022-02-03 13:01:31,250][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 13:21:03,874][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 13:41:32,085][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+[2022-02-03 14:01:30,435][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 14:01:35,756][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-03 14:01:40,950][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 133: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+[2022-02-03 14:23:10,548][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 14:23:15,764][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-03 14:23:20,983][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm2: No such device
+[2022-02-03 14:41:55,288][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm2: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-03 15:01:32,311][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 15:01:37,512][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 15:01:42,732][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-03 15:01:47,932][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 15:21:59,454][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 15:22:04,658][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 15:22:09,858][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-03 15:22:15,067][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 15:41:01,508][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+[2022-02-03 16:21:30,180][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+[2022-02-03 16:49:14,183][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 16:49:19,384][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 16:49:24,583][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-03 16:49:29,773][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 16:55:12,137][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 16:57:08,910][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "<string>", line 3, in recv
+_bluetooth.error: (103, 'Software caused connection abort')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "<string>", line 3, in recv
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "<string>", line 3, in recv
+_bluetooth.error: (103, 'Software caused connection abort')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "<string>", line 3, in recv
+_bluetooth.error: (103, 'Software caused connection abort')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+_bluetooth.error: (103, 'Software caused connection abort')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/bee1/wiibee/wiiboard.py", line 121, in loop
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    data = self.receivesocket.recv(25)
+  File "<string>", line 5, in recv
+bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/bee1/wiibee/wiiboard.py", line 121, in loop
+    data = self.receivesocket.recv(25)
+  File "<string>", line 5, in recv
+bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/bee1/wiibee/wiiboard.py", line 121, in loop
+    data = self.receivesocket.recv(25)
+  File "<string>", line 5, in recv
+bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/bee1/wiibee/wiiboard.py", line 121, in loop
+    data = self.receivesocket.recv(25)
+  File "<string>", line 5, in recv
+bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-04 08:02:45,122][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 08:21:02,427][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 08:41:02,484][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 09:21:50,500][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 09:21:55,977][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 09:22:16,496][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 110] Connection timed out
+[2022-02-04 10:44:59,645][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 107] Transport endpoint is not connected
+[2022-02-04 10:44:59,648][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 113] No route to host
+[2022-02-04 10:44:59,649][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 113] No route to host
+[2022-02-04 10:44:59,651][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 113] No route to host
+[2022-02-04 11:23:53,331][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-04 11:41:52,159][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 11:41:57,547][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 11:42:02,772][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm2: No such device
+[2022-02-04 12:01:02,697][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 12:01:08,034][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 12:21:26,841][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-04 14:01:32,908][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm2: No such device
+[2022-02-04 14:22:41,573][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 14:22:46,770][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 14:22:51,991][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 14:22:57,515][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-04 14:41:01,847][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 14:41:07,042][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 14:41:12,232][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 16:01:38,466][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 16:01:43,991][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 17:01:03,090][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 17:01:08,288][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 17:01:13,656][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 17:21:39,077][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 19:41:08,836][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 20:01:03,524][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 20:01:08,768][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 21:01:02,558][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 21:01:07,760][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 22:00:59,890][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 22:01:05,089][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 22:01:10,289][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 22:01:15,487][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 22:21:00,126][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 22:21:05,325][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 22:21:10,524][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-04 23:01:00,617][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-04 23:01:05,835][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-04 23:01:11,035][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-04 23:01:16,255][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 00:01:01,213][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 00:01:06,413][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 00:01:11,613][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 00:01:16,843][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 01:01:00,975][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 01:01:06,198][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 01:01:11,398][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 01:01:16,598][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 01:41:08,491][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 01:41:13,956][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 02:01:00,119][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 02:01:05,315][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 02:01:10,515][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 02:01:15,715][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 03:01:00,728][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 03:01:05,965][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 03:01:11,185][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 03:01:16,395][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 03:21:05,449][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 03:41:05,067][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+/mnt/bee1/wiibee/autorun.sh: line 133: /dev/rfcomm3: No such device
+[2022-02-05 04:01:02,629][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 04:01:07,871][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 04:01:13,111][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 05:01:00,896][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 05:01:06,115][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 05:01:11,315][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 05:01:16,535][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 06:01:00,349][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 06:01:05,547][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 06:01:10,748][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 06:01:15,967][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 07:01:01,368][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 07:01:06,569][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 07:01:11,789][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 07:01:16,989][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 14:43:25,026][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 15:01:38,470][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 15:43:49,088][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 15:43:54,278][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-05 15:43:59,696][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 18:02:10,250][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-05 18:23:42,756][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-05 20:02:08,736][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-05 23:01:32,089][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-05 23:01:37,565][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-05 23:01:58,064][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 110] Connection timed out
+[2022-02-06 00:01:37,177][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-06 00:21:36,005][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-06 02:01:33,190][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-06 02:41:36,016][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-06 02:41:41,410][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-06 04:21:28,445][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-06 04:21:33,856][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-06 04:21:39,083][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-06 05:41:58,482][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-06 05:42:04,124][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-06 06:01:28,582][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-06 06:01:33,719][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-06 06:01:39,221][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-06 06:41:29,247][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-06 09:01:30,339][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+Cannot find device "eth1"
+Cannot find device "eth1"
+Cannot find device "eth1"
+error: unable to create temporary file: Read-only file system
+error: Error building trees
+warning: unable to unlink '/mnt/bee1/wiibee/.git/index.lock': Read-only file system
+warning: unable to unlink '/mnt/bee1/wiibee/.git/next-index-1213.lock': Read-only file system
+/mnt/bee1/wiibee/autorun.sh: line 190: A: Read-only file system
