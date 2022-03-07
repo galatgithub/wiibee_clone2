@@ -151,7 +151,7 @@ done
 
 logger "Start listening to the mass measurements"
 # replace python by python3
-python3 autorun.py $BTADDR >> wiibee.txt
+python autorun.py $BTADDR >> wiibee.txt
 logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
