@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
-# Wiiboards="7:bleu/rouge 8: ?? 9:?? 10:??
-BTADDR="00:25:A0:3F:11:3A"
+# Wiiboards="7:bleu/rouge 8:bleu/mauve      9:no color        10:no color       11:no color
+BTADDR="00:25:A0:3F:11:3A 00:22:4C:59:2A:07 CC:9E:00:B1:F5:2A 00:25:A0:4A:28:22 00:23:CC:24:FE:6C"
 # Bluetooth relays addresses
-#BTRLADDR="85:58:0E:16:73:EF"
+BTRLADDR="85:58:0E:16:64:A5 85:58:0E:16:7B:32 4F:F8:09:01:65:00 8F:7F:0B:01:65:00 76:7F:0B:01:65:00"
 
 # Connexion cle 3G
 # fix Huawei E3135 recognized as CDROM [sr0]
@@ -69,44 +69,44 @@ logger "Simulate press red sync button on the Wii Board"
 #sleep 20
 #sudo systemctl restart bluetooth
 
-nb_wiiboard=$(echo "$BTADDR" | wc -w)
-nb_counted=0
-try=0
-until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
-    ((try++))
-    results=$(hcitool -i hci0 scan | grep "JDY-30") 
-    sleep 1
-    nb_counted=$(echo $results | grep -o "JDY-30" | wc -l)
-    echo $nb_counted
-    [ $nb_counted -ne $nb_wiiboard ] && { echo "restart BT"; sudo systemctl restart bluetooth; sleep 10; }
-done
+#nb_wiiboard=$(echo "$BTADDR" | wc -w)
+#nb_counted=0
+#try=0
+#until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
+#    ((try++))
+#    results=$(hcitool -i hci0 scan | grep "JDY-30") 
+#    sleep 1
+#    nb_counted=$(echo $results | grep -o "JDY-30" | wc -l)
+#    echo $nb_counted
+#    [ $nb_counted -ne $nb_wiiboard ] && { echo "restart BT"; sudo systemctl restart bluetooth; sleep 10; }
+#done
 
-if [ $try -eq 10 ]; then
-    echo "Problems : 10 attempts to restart bluetooth without response from all wiiboards, check wiiboards alimentation" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
-fi
+#if [ $try -eq 10 ]; then
+#    echo "Problems : 10 attempts to restart bluetooth without response from all wiiboards, check wiiboards alimentation" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
+#fi
 
-read -a strarr <<< "$results"
+#read -a strarr <<< "$results"
 
-j=1
-for i in $results; do
-	if [ $((j++%2)) -eq 0 ]
-	then
-	  NAME+=("$i")
-	else
-	  MAC+=("$i")
-	fi
-done
+#j=1
+#for i in $results; do
+#	if [ $((j++%2)) -eq 0 ]
+#	then
+#	  NAME+=("$i")
+#	else
+#	  MAC+=("$i")
+#	fi
+#done
 
-BTRLADDR=""
-j=0
-for i in "${NAME[@]}"; do
-	if [[ "$i" == *JDY-30* ]]
-	then
-	  BTRLADDR="$BTRLADDR ${MAC[$j]}"
-	fi
-	((j++))
-done
-BTRLADDR=${BTRLADDR:1}
+#BTRLADDR=""
+#j=0
+#for i in "${NAME[@]}"; do
+#	if [[ "$i" == *JDY-30* ]]
+#	then
+#	  BTRLADDR="$BTRLADDR ${MAC[$j]}"
+#	fi
+#	((j++))
+#done
+#BTRLADDR=${BTRLADDR:1}
 
 echo "Relais detectes=${BTRLADDR[@]}"
 
