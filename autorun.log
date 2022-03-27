@@ -18,3 +18,8 @@ Cannot find device "eth1"
 Cannot find device "eth1"
 Cannot find device "eth1"
 Cannot find device "eth1"
+Cannot find device "eth1"
+Cannot find device "eth1"
+[2022-03-27 17:45:14,440][wiiboard][ERROR] Could not connect to 00:25:A0:3F:11:3A : (112, 'Host is down')
+[2022-03-27 17:45:19,634][wiiboard][ERROR] Could not connect to 00:22:4C:59:2A:07 : (112, 'Host is down')
+[2022-03-27 17:45:25,357][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
