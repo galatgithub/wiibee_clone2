@@ -2,3 +2,7 @@ Too few arguments.
 Too few arguments.
 [2022-03-27 12:53:19,412][wiiboard][ERROR] Could not connect to 00:22:4C:59:2A:07 : (112, 'Host is down')
 [2022-03-27 12:53:25,308][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
+Too few arguments.
+Too few arguments.
+[2022-03-27 13:05:21,799][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm4: Aucun périphérique de ce type
