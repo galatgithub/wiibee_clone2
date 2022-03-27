@@ -44,3 +44,13 @@ Cannot find device "eth1"
 Cannot find device "eth1"
 Cannot find device "eth1"
 [2022-03-27 18:54:45,423][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (31, 'Too many links')
+Cannot find device "eth1"
+Cannot find device "eth1"
+[2022-03-27 19:05:45,879][wiiboard][ERROR] Could not connect to 00:25:A0:3F:11:3A : (112, 'Host is down')
+[2022-03-27 19:05:52,752][wiiboard][ERROR] Could not connect to 00:22:4C:59:2A:07 : (112, 'Host is down')
+[2022-03-27 19:05:57,974][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : (112, 'Host is down')
+[2022-03-27 19:06:03,167][wiiboard][ERROR] Could not connect to 00:22:4C:6E:12:6C : (112, 'Host is down')
+[2022-03-27 19:06:08,368][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm2: Aucun périphérique de ce type
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm3: Aucun périphérique de ce type
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm4: Aucun périphérique de ce type
