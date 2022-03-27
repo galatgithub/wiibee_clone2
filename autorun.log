@@ -61,3 +61,5 @@ BluetoothError: (103, 'Software caused connection abort')
 Too few arguments.
 Too few arguments.
 [2022-03-27 13:34:46,872][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (31, 'Too many links')
+RTNETLINK answers: File exists
+[2022-03-27 13:45:23,789][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
