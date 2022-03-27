@@ -38,3 +38,6 @@ Cannot find device "eth1"
 Cannot find device "eth1"
 [2022-03-27 18:35:33,198][wiiboard][ERROR] Could not connect to 00:25:A0:3F:11:3A : (112, 'Host is down')
 /mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm4: Aucun périphérique de ce type
+Cannot find device "eth1"
+Cannot find device "eth1"
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm4: Aucun périphérique de ce type
