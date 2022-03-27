@@ -31,3 +31,6 @@ Cannot find device "eth1"
 Cannot find device "eth1"
 Cannot find device "eth1"
 Cannot find device "eth1"
+Cannot find device "eth1"
+Cannot find device "eth1"
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm4: Aucun périphérique de ce type
