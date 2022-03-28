@@ -40,3 +40,6 @@ Too few arguments.
 Too few arguments.
 /mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm1: Aucun périphérique de ce type
 /mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm2: Aucun périphérique de ce type
+Too few arguments.
+Too few arguments.
+[2022-03-28 16:03:26,490][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : (112, 'Host is down')
