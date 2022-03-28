@@ -14,3 +14,7 @@ Too few arguments.
 Too few arguments.
 [2022-03-28 09:05:58,232][wiiboard][ERROR] Could not connect to 00:25:A0:3F:11:3A : (112, 'Host is down')
 [2022-03-28 09:06:04,137][wiiboard][ERROR] Could not connect to 00:22:4C:6E:12:6C : (112, 'Host is down')
+Too few arguments.
+Too few arguments.
+[2022-03-28 10:06:10,995][wiiboard][ERROR] Could not connect to 00:25:A0:3F:11:3A : (112, 'Host is down')
+[2022-03-28 10:06:16,186][wiiboard][ERROR] Could not connect to 00:22:4C:59:2A:07 : (112, 'Host is down')
