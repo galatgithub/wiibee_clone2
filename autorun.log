@@ -43,3 +43,17 @@ Too few arguments.
 Too few arguments.
 Too few arguments.
 [2022-03-28 16:03:26,490][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : (112, 'Host is down')
+RTNETLINK answers: File exists
+[2022-03-28 17:05:50,249][wiiboard][ERROR] Could not connect to 00:22:4C:59:2A:07 : (112, 'Host is down')
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/mnt/bee1/wiibee/wiiboard.py", line 128, in loop
+    data = self.receivesocket.recv(25)
+  File "<string>", line 5, in recv
+BluetoothError: (110, 'Connection timed out')
+
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm0: Aucun périphérique de ce type
