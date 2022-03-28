@@ -59,3 +59,5 @@ BluetoothError: (110, 'Connection timed out')
 /mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm0: Aucun périphérique de ce type
 RTNETLINK answers: File exists
 [2022-03-28 18:02:12,057][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : (112, 'Host is down')
+Too few arguments.
+Too few arguments.
