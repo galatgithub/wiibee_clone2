@@ -7,3 +7,6 @@ Too few arguments.
 [2022-03-28 06:36:27,062][wiiboard][ERROR] Could not connect to 00:22:4C:6E:12:6C : (112, 'Host is down')
 [2022-03-28 06:36:32,261][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
 /mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm2: Aucun périphérique de ce type
+RTNETLINK answers: File exists
+[2022-03-28 08:03:35,518][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (31, 'Too many links')
+/mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm2: Aucun périphérique de ce type
