@@ -71,3 +71,5 @@ RTNETLINK answers: File exists
 [2022-03-31 06:44:46,046][wiiboard][ERROR] Could not connect to 00:22:4C:6E:12:6C : (112, 'Host is down')
 [2022-03-31 06:44:51,245][wiiboard][ERROR] Could not connect to 00:23:CC:24:FE:6C : (112, 'Host is down')
 /mnt/bee1/wiibee/autorun.sh: ligne 181: /dev/rfcomm3: Aucun périphérique de ce type
+RTNETLINK answers: File exists
+[2022-03-31 07:23:36,981][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : (112, 'Host is down')
