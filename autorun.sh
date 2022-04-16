@@ -2,9 +2,14 @@
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
 # Wiiboards="7:bleu/rouge 8:bleu/mauve      11:no color        #9:no color    1:Blue       10:no color
-BTADDR="00:25:A0:3F:11:3A 00:22:4C:59:2A:07 00:23:CC:24:FE:6C" #CC:9E:00:B1:F5:2A" # 00:22:4C:6E:12:6C  # 00:25:A0:4A:28:22"
+# BTADDR="00:25:A0:3F:11:3A 00:22:4C:59:2A:07 00:23:CC:24:FE:6C" #CC:9E:00:B1:F5:2A" # 00:22:4C:6E:12:6C  # 00:25:A0:4A:28:22"
 # Bluetooth relays addresses
-BTRLADDR="85:58:0E:16:64:A5 85:58:0E:16:7B:32 76:7F:0B:01:65:00" #4F:F8:09:01:65:00" # 85:58:0E:16:62:35  # 8F:7F:0B:01:65:00"
+# BTRLADDR="85:58:0E:16:64:A5 85:58:0E:16:7B:32 76:7F:0B:01:65:00" #4F:F8:09:01:65:00" # 85:58:0E:16:62:35  # 8F:7F:0B:01:65:00"
+
+# test
+BTADDR="CC:9E:00:B1:F5:2A"
+BTRLADDR="4F:F8:09:01:65:00"
+
 
 #~ # Connexion cle 3G
 #~ # fix Huawei E3135 recognized as CDROM [sr0]
