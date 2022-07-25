@@ -1,21 +1,21 @@
 #! /bin/bash
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
-# Wiiboards="7:bleu/rouge 8:bleu/mauve      9:no color    1:Blue    11:no color       10:no color
-BTADDR="00:25:A0:3F:11:3A 00:22:4C:59:2A:07 CC:9E:00:B1:F5:2A 00:22:4C:6E:12:6C 00:23:CC:24:FE:6C" # 00:25:A0:4A:28:22"
+# Wiiboards="7:bleu/rouge 8:bleu/mauve      11:no color        #9:no color    1:Blue       10:no color
+BTADDR="00:25:A0:3F:11:3A 00:22:4C:59:2A:07 00:23:CC:24:FE:6C" #CC:9E:00:B1:F5:2A" # 00:22:4C:6E:12:6C  # 00:25:A0:4A:28:22"
 # Bluetooth relays addresses
-BTRLADDR="85:58:0E:16:64:A5 85:58:0E:16:7B:32 4F:F8:09:01:65:00 85:58:0E:16:62:35 76:7F:0B:01:65:00" # 8F:7F:0B:01:65:00"
+BTRLADDR="85:58:0E:16:64:A5 85:58:0E:16:7B:32 76:7F:0B:01:65:00" #4F:F8:09:01:65:00" # 85:58:0E:16:62:35  # 8F:7F:0B:01:65:00"
 
-# Connexion cle 3G
-# fix Huawei E3135 recognized as CDROM [sr0]
-lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
-# run DHCP client to get an IP
-ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
-sleep 10
-lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
-# run DHCP client to get an IP
-ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
-sleep 10
+#~ # Connexion cle 3G
+#~ # fix Huawei E3135 recognized as CDROM [sr0]
+#~ lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
+#~ # run DHCP client to get an IP
+#~ ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
+#~ sleep 10
+#~ lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
+#~ # run DHCP client to get an IP
+#~ ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
+#~ sleep 10
 
 #sleep 12 # FIXME "wait" for dhcpd timeout
 # if BT failed: sudo systemctl status hciuart.service
@@ -159,7 +159,7 @@ kill $pidbt 2>/dev/null
 
 logger "Start listening to the mass measurements"
 # replace python by python3
-python autorun.py $BTADDR >> wiibee.txt
+python3 autorun.py $BTADDR >> wiibee.txt
 logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
