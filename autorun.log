@@ -5,3 +5,9 @@ Traceback (most recent call last):
   File "/mnt/bee1/wiibee/wiiboard.py", line 16, in <module>
     import bluetooth
 ImportError: No module named bluetooth
+Traceback (most recent call last):
+  File "autorun.py", line 13, in <module>
+    from wiiboard import logger, WiiboardSampling
+  File "/mnt/bee1/wiibee/wiiboard.py", line 16, in <module>
+    import bluetooth
+ImportError: No module named bluetooth
