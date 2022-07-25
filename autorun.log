@@ -11,3 +11,20 @@ Traceback (most recent call last):
   File "/mnt/bee1/wiibee/wiiboard.py", line 16, in <module>
     import bluetooth
 ImportError: No module named bluetooth
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Traceback (most recent call last):
+  File "autorun.py", line 13, in <module>
+    from wiiboard import logger, WiiboardSampling
+  File "/mnt/bee1/wiibee/wiiboard.py", line 16, in <module>
+    import bluetooth
+ImportError: No module named bluetooth
