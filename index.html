@@ -25,11 +25,11 @@ function getColors(num, sat, val) {
     }
     return colors;
 }
-var labels = ["Date", "T°CP", "T", "Bleu-Rouge"]; 
+var labels = ["Date", "T°CP", "T", "7:bleu/rouge", "8:bleu/mauve", "11:no color"]; 
 // must calibrate each balance and setup the offsets accordingly
-var offset = [     0,       0,   0, 1.47];
+var offset = [     0,       0,   0, 1.47, 0,2, 0];
 //  labels = ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4"];
-var multi  = [    [],      [],  [], []];
+var multi  = [    [],      [],  [],   [],   [],   [],   []];
 var ndata  = 0;
 var range  = [15, 45];
 wiibee.forEach(function(elt1, index1, arr1) {
